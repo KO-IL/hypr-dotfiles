@@ -1,0 +1,23 @@
+rofi.theme: "~/.config/rofi/themes/default.rasi"
+
+# Set the default window size
+rofi.width: 50%
+rofi.height: 30%
+
+# Enable a visible selection box
+rofi.font: "Liberation Mono 12"
+rofi.padding: 10px
+
+# Set a transparent background (optional)
+rofi.background-color: "#2e2e2e"
+rofi.text-color: "#ffffff"
+
+# Set the selection box style
+rofi.selection.color: "#2a2a2a, #ffffff, #ff9800"
+rofi.selection-border: 2px solid #ff9800
+
+# Set the normal state appearance (this controls the list appearance)
+rofi.color-normal: "#2e2e2e, #ffffff, #2e2e2e, #ff9800, #ffffff"
+rofi.color-active: "#2e2e2e, #ff9800, #2e2e2e, #ffffff, #ffffff"
+rofi.color-urgent: "#2e2e2e, #ff5722, #2e2e2e, #ffffff, #ffffff"
+

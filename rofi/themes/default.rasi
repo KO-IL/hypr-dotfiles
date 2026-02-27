@@ -1,0 +1,29 @@
+/* Simple Rofi theme to display a visible selection box */
+* {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ff9800;
+    background-color: #2e2e2e;
+}
+
+window {
+    background-color: #2e2e2e;
+}
+
+listview {
+    lines: 10;
+    fixed-height: 1;
+}
+
+element {
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element selected {
+    background-color: #ff9800;
+    text-color: #2e2e2e;
+    border-radius: 5px;
+    border: 2px solid #ff9800;
+}
+
